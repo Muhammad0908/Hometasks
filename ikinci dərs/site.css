@@ -1,0 +1,62 @@
+div{
+    border:1px solid black;
+}
+
+
+.header {
+    height: 150px;
+    padding-left: 30px;
+}
+
+
+.center{min-height: 300px;}
+.center *{box-sizing: border-box;}
+
+
+.left{
+    border:none;
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+.plugin{
+    padding: 2px;
+    margin:2px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.plugin h4{
+    display: block;
+    border-bottom: 1px solid gray ;
+    padding-left:10px ;
+}
+
+.content{
+    width: 60% ;
+    float: left;
+}
+
+.right{
+    float:left;
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    /*box-sizing: border-box;*/
+    height: 50px;
+    padding: 0 20px;
+}
+
+.copyright{float: left}
+.designed{float: right}
+

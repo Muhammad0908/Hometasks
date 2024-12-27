@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing text place</title>
+    <style>
+        body {
+            margin: 20px;
+        }
+
+        body {
+            font-family: "Century Gothic",serif;
+        }
+
+        .con {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 300px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #6bac00;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: rgba(48, 167, 0, 0.52);
+        }
+        .con{
+            margin: 0 40%;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <input type="text" id="text1" placeholder="First text">
+        <input type="text" id="text2" placeholder="Second text">
+        <button onclick="btn()">Change</button>
+    </div>
+
+    <script>
+        function btn() {
+            const text1 = document.getElementById('text1');
+            const text2 = document.getElementById('text2');
+            
+
+            const elem = text1.value;
+            text1.value = text2.value;
+            text2.value = elem;
+        }
+    </script>
+</body>
+</html>

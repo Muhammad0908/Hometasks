@@ -1,0 +1,33 @@
+.container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 3fr ;
+    grid-template-rows: 100px 300px 70px 70px 100px ;
+    grid-gap: 7px;
+    grid-template-areas: "a a a a a"
+                         "b c c c d"
+                         "b c c c d"
+                         "b x x l d"
+                         "e e e e e";
+    justify-content: center;
+
+}
+
+
+/*    "^"  -   əvvəli bərabərdir deməkdir.                      */
+
+[class ^="block-" ]{
+    border: 1px dashed black;
+    border-radius: 10px;
+    background-color: #ffd79c;
+
+}
+
+.block-1{grid-area: a}
+.block-2{grid-area: b}
+.block-3{grid-area: c}
+.block-4{grid-area: d}
+.block-5{grid-area: e}
+.block-6{grid-area: x}
+.block-7{grid-area: l}
+

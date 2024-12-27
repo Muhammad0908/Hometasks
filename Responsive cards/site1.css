@@ -1,0 +1,12 @@
+.title{
+    font-family: "Futura LT Paneuropean Medium", serif;
+}
+
+.text{
+    font-family: "Futura LT Paneuropean";
+}
+ .main{
+     height: 1000px;
+     width: 100%;
+     background-color: #ffd79c;
+ }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>başlıq</title>
+    
+</head>
+<body>
+
+
+
+
+
+
+
+
+<!--                          FORM
+<input> - un by default type = "text".
+<label> </label> tag-i ile bunlara ad qoyuruq
+
+
+
+value= "blabla" - ilkin dəyər və ya submit kimi tiplərin button yazısını dəyişmək üçün.
+       inputun atributudur.
+placeholder - açıq boz şriftlə example yazmaq üçündür.
+
+
+Məlumatı servere ötürmək üçün 2 əsasən methoddan istifadə olunur:
+GET - by default metoddur. Bu metod göndərilən məlumatlar brauzerdə göstərir.
+POST - bu method məlumatları göndərir ama ki, brauzerdə göstərmir. Göndərilən məlumatları inspect > network hissəsində görə bilərik
+
+unutmayaqki məlumatları göndərmək üçün "name" tag-i mütləq hər input-dan sonra qoymalıyıq və ona key əlavə etməliyik. Məsələn: name="username".
+
+
+get və postun fərqləri: I - get ilə 255 ə qədər simvollu məlumat göndərə bilərik, qısıtlıdır. Post ilə istənilən qədər.
+                        II - file get ilə göndərilə bilmir. yalnız post ilə göndərilir.
+                                                                -->
+
+
+
+    <form method="POST">
+        <p>
+            <label>Username
+                <input  type="text" name="login" placeholder="John" >
+            </label>
+        </p>
+        <p>
+            <label>Password
+                <input  type="password" placeholder="Password">
+            </label>
+        </p>
+        <p>
+            <label>Age
+                <input name="age" type="number">
+            </label>
+        </p>
+        <p>
+            <label> File
+                <input type="file" >
+            </label>
+        </p>
+        <p>
+            <label> Select
+                <select name="agreement">
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="submit" value="OK">
+            </label>
+        </p>
+    </form>
+</body>
+</html>

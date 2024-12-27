@@ -1,0 +1,66 @@
+
+*{
+    float: left;
+}
+
+
+[class^="block-"]{
+
+    height: 550px;
+    width: 25%;
+    background-color: #ffd79c;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+    float: left;
+}
+.title{
+    font-family: "Futura LT Paneuropean Medium", serif;
+}
+
+.text{
+    font-family: "Futura LT Paneuropean";
+}
+@media only screen and (max-width: 900px){
+    .block-md-1{width:50%; height: 650px}
+    .block-md-2{width:50%;height: 650px }
+    .block-md-3{width:50%; height: 650px}
+    .block-md-4{width:50%; height: 650px}
+    .block-md-5{width:50%; height: 650px}
+    .block-md-6{width:50%; height: 650px}
+    .block-md-7{width:50%; height: 650px}
+    .block-md-8{width:50%; height: 650px}
+    .block-md-9{width:50%; height: 650px}
+    .block-md-10{width:50%; height: 650px}
+    .block-md-11{width:50%; height: 650px}
+    .block-md-12{width:50%; height: 650px}
+
+}
+
+@media only screen and (max-width: 600px){
+    .block-sm-1{width:100%; height: 550px}
+    .block-sm-2{width:100%;  height: 550px}
+    .block-sm-3{width:100%; height: 550px}
+    .block-sm-4{width:100%;  height: 550px}
+    .block-sm-5{width:100%;  height: 550px}
+    .block-sm-6{width:100%; height: 550px}
+    .block-sm-7{width:100%;  height: 550px}
+    .block-sm-8{width:100%; height: 550px}
+    .block-sm-9{width:100%; height: 550px}
+    .block-sm-10{width:100%;height: 550px }
+    .block-sm-11{width:100%; height: 550px}
+    .block-sm-12{width:100%; height: 550px}
+}
+
+button{
+    font-family: "Futura LT Paneuropean";
+    color: white;
+    font-size: 17px;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: bisque;
+
+}
+
+
